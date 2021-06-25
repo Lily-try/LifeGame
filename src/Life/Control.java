@@ -211,7 +211,7 @@ public class Control extends JFrame {
 		int i=0,j=0;
 		count++;
 		System.out.println("Count:"+count);
-		GenerationLabel.setText("这是第"+count+"次演化");
+		GenerationLabel.setText("这是LifeGameLab1中第"+count+"次演化");
 		
 		int[][] cellstatus=new int[row][col];
 		Cell[][] cell=map.getCell();
